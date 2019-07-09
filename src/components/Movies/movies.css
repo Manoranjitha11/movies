@@ -1,0 +1,141 @@
+.container-fluid .row .cardOuterBox .cardBox {
+  width: 99% !important;
+  height: auto !important;
+  margin: 0 !important;
+}
+
+.container-fluid .row .cardOuterBox {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container-fluid .row .cardOuterBox .cardBox img{
+  width: 100%;
+}
+
+.playIcon {
+  font-size: 24px;
+}
+
+.imgContanier {
+  width: 70%;
+}
+
+.movieDetails {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 0 17px;
+}
+
+.movieName {
+  width: 100%;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+  background-color: #009688;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 300;
+  padding: 20px 35px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.thumbsIcon{
+  font-size: 24px;
+  color: #4CAF50;
+  cursor: pointer;
+}
+
+.voteCount {
+  margin-top: 10px;
+}
+
+.movieOverview, .trailer h6, .trailer p, .favBtn , .yearValue, .movieLength, .movieAvg{
+  /* margin: 0 auto;
+  padding: 10px 0; */
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  color: #747474;
+}
+
+.movieLength {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: oblique;
+}
+
+.yearValue {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.movieAvg {
+  font-size: 16px;
+  color: #000;
+}
+
+.movieName p, .movieAvg p, .favBtn p, .voteCount p {
+    margin: 0 0 5px;
+}
+.movieDetails p {
+  margin: 0 0 10px 0;
+}
+.favBtn {
+  width: 97px;
+  padding: 6px 0;
+  font-size: 10px;
+  text-align: center;
+  color: #757373;
+  text-transform: uppercase;
+  border: solid 1px #6fcac2;
+  background-color: #86e4db;
+  cursor: pointer;
+}
+
+.movieOverview {
+  border-bottom: 1px solid;
+}
+
+.thumbnailImg img {
+  width: 100%;
+  height: auto;
+}
+
+.trailer, .thumbnailImg, .movieOverview {
+  margin: 5px 20px;
+}
+
+.movieDetail .container-fluid {
+  padding: 0;
+}
+
+
+.movieOverview {
+  padding-bottom: 10px;
+}
+
+ .trailer h6 {
+   font-size: 18px;
+   padding: 10px 0 5px 0;
+ }
+
+
+.trailer i {
+  padding: 0 25px;
+  cursor: pointer;
+}
+
+.trailer p {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}

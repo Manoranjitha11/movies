@@ -1,0 +1,20 @@
+.navOuter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.navOuter ul {
+    display: flex;
+}
+
+.navOuter ul li {
+    padding: 0 10px;
+    margin: 0 5px;
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+}
