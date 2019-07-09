@@ -15,6 +15,11 @@
   width: 100%;
 }
 
+.empty {
+  padding: 10px;
+  font-size: 28px;
+}
+
 .playIcon {
   font-size: 24px;
 }

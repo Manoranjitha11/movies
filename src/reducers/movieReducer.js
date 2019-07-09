@@ -9,14 +9,17 @@ export default function reducer(state = initialState, action) {
     // SET THE MOVIES LIST IN THE STORE VARIABLE 'movieList'
     case 'SET_MOVIES_LIST': {
       console.log('SET_MOVIES_LIS id reducer', action);
-      // var moviesArr = action.payload;
-      var resultMoviesArr = action.payload.map(function(el) {
-        var result = Object.assign({}, el);
-        if(!el.hasOwnProperty('isFav')) {
-          result.isFav = false;
-        }
-        return result;
-      })
+      var moviesArr = action.payload;
+      var resultMoviesArr = [];
+      if(moviesArr.length !== 0) {
+       resultMoviesArr = action.payload.map(function(el) {
+          var result = Object.assign({}, el);
+          if(!el.hasOwnProperty('isFav')) {
+            result.isFav = false;
+          }
+          return result;
+        })
+      }
       console.log('SET_MOVIES_LIS id reducer', resultMoviesArr);
       return {...state, movieList: resultMoviesArr};
     }
