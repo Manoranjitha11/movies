@@ -31,7 +31,7 @@ themoviedb.org API
 
 1. Clone the repository using git clone command
 2. Add dev dependecies (jest, babel-jest, react-test-renderer) for testing purpose.
-3. Run npm install
+3. Change the directory cd movies and then Run npm install
 4. Change the API_KEY in config.js with your own key obtained from themoviedb account.
 5. Run npm test
 
@@ -39,7 +39,7 @@ themoviedb.org API
 
 1. Clone the repository using git clone command
      - If previously cloned than remove the node_modules, package_lock.json and the devDependencies alone from package.json
-2. Run npm install
+2. Change the directory cd movies and then Run npm install
 3. Change the API_KEY in config.js with your own key obtained from themoviedb account.
 4. Run npm start
 
