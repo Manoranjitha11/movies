@@ -21,7 +21,7 @@ class MovieList extends Component {
 
   render() {
     return (
-      <div className="container-fluid mw-85 mauto" >
+      <div className="container-fluid mw-85 mauto mt-7" >
       {this.props.movies.movieList.length == 0 ? <div className="movieAvg"> No movies are present</div> :
           <div className="row">
               {

@@ -15,3 +15,7 @@ code {
 .d-flex {
   display: flex;
 }
+
+.mt-7 {
+  margin-top: 1px;
+}
