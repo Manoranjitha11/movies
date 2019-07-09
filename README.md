@@ -21,7 +21,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## API
 
+```
 themoviedb.org API
+```
 
 # To run the test cases
 
