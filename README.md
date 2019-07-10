@@ -2,6 +2,12 @@
 
 MOVIES - Present the user with a grid arrangement of movie posters and click on it to show the details.
 
+## Technologies
+- React
+- Redux
+- HTML, Bootstrap
+- API Services
+
 ## Features
 
 ```
